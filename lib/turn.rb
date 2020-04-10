@@ -36,6 +36,7 @@ def turn(board)
   value = "X"
   if valid_move?(board,index)
     return board[index] = "X"
+    puts display_board(board)
   else
     turn(board)
   end
