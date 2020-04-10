@@ -25,6 +25,6 @@ def position_taken?(board,index)
   end
 end
 
-def move(board,index,value='X')
-  puts display_board(board)
+def move(array,index,value='X')
+ return array[index] = value
 end
