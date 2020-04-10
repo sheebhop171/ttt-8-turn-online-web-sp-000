@@ -25,6 +25,6 @@ def position_taken?(board,index)
   end
 end
 
-if move(board,index,value='X')
-  display_board(board)
+def move(board,index,value='X')
+  puts display_board(board)
 end
