@@ -35,8 +35,7 @@ def turn(board)
   index = input_to_index(input)
   value = "X"
   if valid_move?(board,index)
-    return array[index] = value
-    puts display_board(value)
+    return display_board(input)
   else
     turn(board)
   end
